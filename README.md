@@ -9,20 +9,20 @@ The dealer plays their turn last. The dealer plays by a fixed set of rules. They
 ## Scoring
 In determining hand totals, cards get the following values:
 
-All face cards (Jacks, Queens, and Kings) are worth 10
+- All face cards (Jacks, Queens, and Kings) are worth 10
 
-Aces can count as either 1 or 11, but for the purposes of our blackjack program, aces are always worth 11.
+- Aces can count as either 1 or 11, but for the purposes of our blackjack program, aces are always worth 11.
 
-All other cards have the value shown on the card (ie 2 will be worth 2, 3 will be worth 3, and so on).
+- All other cards have the value shown on the card (ie 2 will be worth 2, 3 will be worth 3, and so on).
 
 ## Outcomes
 Each player (excluding the dealer) has one of the three possible outcomes:
 
-Lose: any player who busts or has a hand value less than the dealer, loses.
+- Lose: any player who busts or has a hand value less than the dealer, loses.
 
-Win: any player who does not bust and has a hand value greater than the dealer, wins.
+- Win: any player who does not bust and has a hand value greater than the dealer, wins.
 
-Push: any player who does not bust and has a hand value matching the dealer, pushes (ties).
+- Push: any player who does not bust and has a hand value matching the dealer, pushes (ties).
 
 
 If you'd prefer a video explanation of the game check one out here: https://www.youtube.com/watch?v=qd5oc9hLrXg
